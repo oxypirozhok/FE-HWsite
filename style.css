@@ -1,0 +1,105 @@
+/* Обнуление*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header_main {
+  flex: 1 1 auto;
+}
+
+.header_block {
+  background: rgb(79, 200, 159);
+  text-align: center;
+  padding: 25px 0px;
+}
+nav {
+  display: flex;
+  background-color: black;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  font-size: 17;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  color: rgb(112, 247, 202);
+}
+
+h1 {
+  line-height: 30px;
+}
+h2 {
+  text-shadow: 1px 2px rgb(146, 200, 181);
+}
+
+h3 {
+  font-size: small;
+  line-height: 25px;
+}
+
+p {
+  padding: 5px 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  background-color: antiquewhite;
+}
+
+.artickle {
+  flex-basis: 70%;
+}
+
+.artickle_block {
+  padding: 10px;
+}
+
+.image-main {
+  background: url(ros.jpg);
+  background-size: cover;
+  height: 24vh;
+}
+.image-main:hover {
+  opacity: 0.7;
+  box-shadow: 1px 3px 10px green;
+}
+
+.sidebar {
+  background: rgba(140, 204, 174, 0.422);
+  flex-basis: 30%;
+}
+
+.sidebar_block {
+  padding: 10px;
+}
+
+.side_img {
+  background: url(ros.jpg);
+  background-size: cover;
+  height: 10vh;
+  margin: 10px 0px;
+}
+
+.side_img:hover {
+  opacity: 0.7;
+  box-shadow: 1px 3px 10px green;
+}
+footer {
+  background: rgb(133, 162, 152);
+  text-align: center;
+  padding: 15px 0px;
+}
